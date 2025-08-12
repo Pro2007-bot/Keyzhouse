@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+
+header {
+
+    .steakhouse {
+        color: rgb(243, 184, 74);   
+         font-family: "Dancing Script", cursive;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+         font-size: 35px;
+         text-decoration: none;
+         padding-left: 15%;
+
+    }
+
+    .steakhouse2 {
+         font-family: "Dancing Script", cursive;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+         font-size: 60px;
+    }
+
+    ul {
+
+      list-style: none;
+      margin-top: -70px;
+    }
+   
+    .head-links {
+      margin-left: 60%;
+      font-size: 19px;
+      color: white;
+      text-decoration: none;
+       .head-link hover {
+      text-decoration: underline 3px solid rgb(241, 189, 75);
+    }
+    }
+
+    .head {
+      text-decoration: none;
+      padding: 10px;
+      color: white;
+      font-size: 19px;
+    }
+
+    .head:hover {
+      text-decoration: underline 3px solid rgb(241, 189, 75);
+    }
+
+   
+
+}
+
+
+.home-contant {
+  margin-top: 190px;
+  margin-left: 10%;
+  font-size: 60px;
+}
+
+
+
+.mag1 {
+  height: 500px;
+  margin-top: -450px;
+  margin-left: 900px;
+
+}
+
+.mag2 {
+  height: 300px;
+  float: left;
+  border-radius: 2000px;
+  margin-left: 680px;
+  margin-top: -300px;
+}
+
+.mag3 {
+  height: 300px;
+  float: left;
+  margin-left: 1270px;
+  border-radius: 3000px;
+  margin-top: -35%;
+}
+
+.home-but {
+  margin-top: -30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+}
