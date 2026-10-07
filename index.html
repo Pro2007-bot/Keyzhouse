@@ -1,40 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keyzhouse</title>
-    <link rel="stylesheet" href="add.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="stley.js">
-    <link rel="icon" href="/Keyzhouse/imgs/K.jpeg">
-</head>
-<body>
- <header>
-    <p class="steakhouse"><samp class="steakhouse2">K</samp>EYZhouse</p>
-    <ul>
-    <li>
-        <div class="head-links">
-    <a href="#" class="head">Home</a>
-    <a href="#" class="head">AboutUs</a>
-    <a href="#" class="head">Menu</a>
-    <a href="#" class="head">Contact</a>
-         </div>
-    </li>
-    </ul> 
- </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Keyzhouse brings premium dining, warm hospitality, and authentic flavors to every table."
+    />
+    <title>Keyzhouse | Premium Dining</title>
+    <link rel="stylesheet" href="add.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="icon" href="./imgs/K.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand" aria-label="Keyzhouse home">
+          <span class="brand-mark">K</span>EYZhouse
+        </div>
 
-<div class="home-contant">
- <p><b>A Premium <br>And Authentic <br>Keyzhouse</b></p>
- <button class="home-but">Get In Touch</button>
- </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
 
-    <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM.jpeg" alt="" class="mag1">
-    <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.22 AM.jpeg" alt="" class="mag2">
-    <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM (1).jpeg" alt="" class="mag3">
-<script src="stley.js"></script>
-</body>
+        <a href="#contact" class="nav-cta">Book a Table</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Premium • Authentic • Memorable</p>
+            <h1>A premium dining experience with authentic flavor.</h1>
+            <p class="lead">
+              Discover beautifully crafted meals, warm hospitality, and a setting
+              designed for unforgettable evenings with family and friends.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#menu" class="primary-button">Explore Menu</a>
+              <a href="#about" class="secondary-button">Our Story</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Keyzhouse statistics">
+              <li><strong>12+</strong><span>Signature dishes</span></li>
+              <li><strong>4.9/5</strong><span>Guest rating</span></li>
+              <li><strong>8 yrs</strong><span>Crafted experience</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Restaurant food showcase">
+            <div class="image-card card-main">
+              <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM.jpeg" alt="Prepared premium dish" />
+            </div>
+            <div class="image-card card-top">
+              <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.22 AM.jpeg" alt="Elegant plated meal" />
+            </div>
+            <div class="image-card card-bottom">
+              <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM (1).jpeg" alt="Luxury dining presentation" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-spacing" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About us</p>
+            <h2>Where quality ingredients meet unforgettable hospitality.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                Keyzhouse celebrates rich flavors, refined presentation, and
+                authentic culinary traditions. Every dish is prepared with care,
+                passion, and a commitment to delivering a premium experience.
+              </p>
+              <p>
+                From relaxed evenings to special celebrations, we create a warm,
+                stylish atmosphere where every guest feels welcome and every bite
+                feels special.
+              </p>
+            </div>
+
+            <div class="about-features">
+              <article>
+                <span>01</span>
+                <h3>Fresh ingredients</h3>
+                <p>Quality produce and carefully selected ingredients daily.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>Expert kitchen</h3>
+                <p>Skilled preparation and signature flavors inspired by tradition.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>Warm service</h3>
+                <p>Thoughtful hospitality in a stylish and relaxing setting.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section-spacing" id="menu">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Our menu</p>
+            <h2>Signature dishes crafted to impress.</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="menu-badge">Popular</div>
+              <h3>Royal Steak</h3>
+              <p>Juicy grilled steak, roasted vegetables, and a rich signature sauce.</p>
+              <div class="menu-meta"><span>$28</span><a href="#contact">Reserve</a></div>
+            </article>
+
+            <article class="menu-card">
+              <div class="menu-badge">Chef's pick</div>
+              <h3>Seafood Platter</h3>
+              <p>Fresh seasonal seafood served with citrus butter and chef herbs.</p>
+              <div class="menu-meta"><span>$32</span><a href="#contact">Reserve</a></div>
+            </article>
+
+            <article class="menu-card">
+              <div class="menu-badge">Classic</div>
+              <h3>Signature Pasta</h3>
+              <p>Silky pasta tossed in a savory sauce with parmesan and herbs.</p>
+              <div class="menu-meta"><span>$24</span><a href="#contact">Reserve</a></div>
+            </article>
+
+            <article class="menu-card">
+              <div class="menu-badge">Sweet</div>
+              <h3>Golden Dessert</h3>
+              <p>Velvety dessert finished with caramel crunch and indulgent flavor.</p>
+              <div class="menu-meta"><span>$14</span><a href="#contact">Reserve</a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-spacing">
+        <div class="container experience-grid">
+          <div>
+            <p class="eyebrow">Why choose us</p>
+            <h2>Every visit is designed to feel exceptional.</h2>
+          </div>
+
+          <div class="experience-list">
+            <article>
+              <h3>Elegant atmosphere</h3>
+              <p>Modern styling combined with warm, welcoming details.</p>
+            </article>
+            <article>
+              <h3>Personalized service</h3>
+              <p>We make every table feel special from the first welcome to the last bite.</p>
+            </article>
+            <article>
+              <h3>Perfect for occasions</h3>
+              <p>Ideal for date nights, family dinners, and unforgettable celebrations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-spacing" id="gallery">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Gallery</p>
+            <h2>Explore the Keyzhouse experience.</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM.jpeg" alt="Food at Keyzhouse" />
+            <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.22 AM.jpeg" alt="Dining moment" />
+            <img src="./imgs/WhatsApp Image 2025-08-11 at 11.00.23 AM (1).jpeg" alt="Premium plate presentation" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-spacing" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Reserve now</p>
+            <h2>Plan your next memorable dining experience.</h2>
+            <p>
+              Whether you are celebrating something special or enjoying a quiet luxury evening,
+              Keyzhouse is ready to welcome you.
+            </p>
+          </div>
+
+          <div class="booking-card">
+            <h3>Visit Keyzhouse</h3>
+            <ul>
+              <li>📍 Premium dining address</li>
+              <li>📞 +1 (234) 567-890</li>
+              <li>✉️ hello@keyzhouse.com</li>
+              <li>⏰ Tue - Sun: 5:00 PM - 11:00 PM</li>
+            </ul>
+            <a href="mailto:hello@keyzhouse.com" class="primary-button">Send Inquiry</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Keyzhouse. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="stley.js"></script>
+  </body>
 </html>
